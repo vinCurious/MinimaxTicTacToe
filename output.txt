@@ -1,0 +1,179 @@
+------------------------------------Test1---------------------------------------
+--------TicTacToe----------
+-------Using MiniMax-------
+1 2 3 
+4 5 6 
+7 8 9 
+Player1's Turn: 2
+1 X 3 
+4 5 6 
+7 8 9 
+No. of search tree nodes Minimax: 63904
+Player AI played at 1
+O X 3 
+4 5 6 
+7 8 9 
+Player1's Turn: 5
+O X 3 
+4 X 6 
+7 8 9 
+No. of search tree nodes Minimax: 64958
+Player AI played at 8
+O X 3 
+4 X 6 
+7 O 9 
+Player1's Turn: 7
+O X 3 
+4 X 6 
+X O 9 
+No. of search tree nodes Minimax: 65010
+Player AI played at 3
+O X O 
+4 X 6 
+X O 9 
+Player1's Turn: 6
+O X O 
+4 X X 
+X O 9 
+No. of search tree nodes Minimax: 65014
+Player AI played at 4
+O X O 
+O X X 
+X O 9 
+Player1's Turn: 9
+O X O 
+O X X 
+X O X 
+Game Drawn
+
+-------Using Alpha Beta Pruning-------
+1 2 3 
+4 5 6 
+7 8 9 
+Player1's Turn: 2
+1 X 3 
+4 5 6 
+7 8 9 
+No. of search tree nodes alphabetpruning: 2868
+Player AI played at 1
+O X 3 
+4 5 6 
+7 8 9 
+Player1's Turn: 5
+O X 3 
+4 X 6 
+7 8 9 
+No. of search tree nodes alphabetpruning: 3136
+Player AI played at 8
+O X 3 
+4 X 6 
+7 O 9 
+Player1's Turn: 7
+O X 3 
+4 X 6 
+X O 9 
+No. of search tree nodes alphabetpruning: 3154
+Player AI played at 3
+O X O 
+4 X 6 
+X O 9 
+Player1's Turn: 6
+O X O 
+4 X X 
+X O 9 
+No. of search tree nodes alphabetpruning: 3158
+Player AI played at 4
+O X O 
+O X X 
+X O 9 
+Player1's Turn: 9
+O X O 
+O X X 
+X O X 
+Game Drawn
+
+--------------------------------------Test2------------------------------------------------
+--------TicTacToe----------
+-------Using MiniMax-------
+1 2 3 
+4 5 6 
+7 8 9 
+Player1's Turn: 1
+X 2 3 
+4 5 6 
+7 8 9 
+No. of search tree nodes Minimax: 59704
+Player AI played at 5
+X 2 3 
+4 O 6 
+7 8 9 
+Player1's Turn: 2
+X X 3 
+4 O 6 
+7 8 9 
+No. of search tree nodes Minimax: 60638
+Player AI played at 3
+X X O 
+4 O 6 
+7 8 9 
+Player1's Turn: 7
+X X O 
+4 O 6 
+X 8 9 
+No. of search tree nodes Minimax: 60684
+Player AI played at 4
+X X O 
+O O 6 
+X 8 9 
+Player1's Turn: 8
+X X O 
+O O 6 
+X X 9 
+No. of search tree nodes Minimax: 60687
+Player AI played at 6
+X X O 
+O O O 
+X X 9 
+AI wins
+
+-------Using Alpha Beta Pruning-------
+1 2 3 
+4 5 6 
+7 8 9 
+Player1's Turn: 1
+X 2 3 
+4 5 6 
+7 8 9 
+No. of search tree nodes alphabetpruning: 2337
+Player AI played at 5
+X 2 3 
+4 O 6 
+7 8 9 
+Player1's Turn: 2
+X X 3 
+4 O 6 
+7 8 9 
+No. of search tree nodes alphabetpruning: 2411
+Player AI played at 3
+X X O 
+4 O 6 
+7 8 9 
+Player1's Turn: 7
+X X O 
+4 O 6 
+X 8 9 
+No. of search tree nodes alphabetpruning: 2427
+Player AI played at 4
+X X O 
+O O 6 
+X 8 9 
+Player1's Turn: 8
+X X O 
+O O 6 
+X X 9 
+No. of search tree nodes alphabetpruning: 2430
+Player AI played at 6
+X X O 
+O O O 
+X X 9 
+AI wins
